@@ -15,18 +15,8 @@ use Illuminate\Support\Facades\Session;
 
 class HomeController extends Controller
 {
-    public function index(Request $request)
+    public function index()
     {
-        if ($request->lang) {
-            Session::put('lang', $request->lang);
-            App::setLocale(Session::get('lang'));
-        }
-        else {
-            Session::get('locale') ?? Session::put('locale', 'me');
-            App::setLocale(Session::get('locale'));
-        }
-
-
         $works = Work::all();
         $posts = Post::latest()->paginate(10);
         $cat = Category::all();
@@ -41,16 +31,13 @@ class HomeController extends Controller
     // }
     public function blogs()
     {
-        App::setLocale(Session::get('lang'));
         $posts = Post::latest()->paginate(10);
         $languages = Language::all();
         return view('site.pages.blog', compact('posts', 'languages'));
-
     }
 
     public function singleBlog(Request $request, $id)
     {
-        App::setLocale(Session::get('lang'));
         $post = Post::find($id);
         $languages = Language::all();
         return view("site.pages.singleBlog", compact('post', 'languages'));
@@ -59,7 +46,6 @@ class HomeController extends Controller
 
     public function works()
     {
-        App::setLocale(Session::get('lang'));
         $works = Work::orderBy('created_at', 'DESC')->paginate(100);
         $languages = Language::all();
         return view('site.pages.works', compact('works', 'languages'));

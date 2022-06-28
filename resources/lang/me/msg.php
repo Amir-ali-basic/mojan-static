@@ -1,8 +1,8 @@
 <?php
 
 return [
- "welcome"=> 'Dobrodošli na',
- "welcome2"=> 'zvanični sajt',
+    "welcome" => 'Dobrodošli na',
+    "welcome2" => 'zvanični sajt',
     "home" => "Početna",
     "about" => 'O nama',
     'products' => 'Proizvodi',
@@ -29,7 +29,7 @@ Kvalitet nam je uvijek na prvom mjestu a tome svjedoče naši dugogodišnji klij
 
     'about11' => 'Imajući u vidu da proizvodnja uniformi i promo tekstilnog materijala zahtjeva podrobno planiranje brojnih detalja poput modela, dezena, tkanina i aksesoara, a sve to u odnosu na sektor, namjenu i sezonske uslove, naš cilj je da svojim klijentima pravovremeno ponudimo udobne i funkcionalne proizvode visokog kvaliteta.
 ',
-"products" => 'Proizvodi',
+    "products" => 'Proizvodi',
     "product1" => 'MEDICINSKE UNIFORME',
     "product2" => 'HORECA UNIFORME',
     "product3" => 'MARKETI – PREHRANA',
@@ -108,32 +108,27 @@ Opremljeni smo najsavremenijim mašinama, što nam daje mogućnost da realizujem
     "users28" => "Isporuka ",
     "users29" => "Rok isporuke se precizira u direktnoj komunikaciji sa klijentima, odmah po poručivanju robe. Isporuka se može obaviti ličnim peuzimanjem, našom dostavom ukoliko je to dio dogovora ili se isporuka realizuje putem kurirske službe.
 U slučaju isporuke putem kurirske službe, isporuka se vrši u skladu sa njihovim radnim vremenom i važećim cjenovnikom dostave. Troškove kurirske službe snosi klijent, ukoliko se ne dogovori drugačije. ",
-"readmore"=>'O nama',
-"our"=>'Naši',
-"moreabout" => "Nešto više o",
-"contact1" =>"Kontaktiraj nas",
-"contact2" =>"Javite nam se putem maila, telefona, društvenih mreža ili nas posjetite u našoj poslovnici kako bi vam pomogli u odabiru i dizajnu vaših novih uniformi!",
+    "readmore" => 'O nama',
+    "our" => 'Naši',
+    "moreabout" => "Nešto više o",
+    "contact1" => "Kontaktiraj nas",
+    "contact2" => "Javite nam se putem maila, telefona, društvenih mreža ili nas posjetite u našoj poslovnici kako bi vam pomogli u odabiru i dizajnu vaših novih uniformi!",
 
 
-"obuko23"=> "Obuk`o",
-"obuko24" => "Proizvodi",
-"mvc" => "Misija, Vizija, Ciljevi",
-"misija" => "Misija",
-"misija1" => "Proizvodnja uniformi i promo tekstilnog materijala postala je jedan od neizostavnih djelova korporativnog i personalnog identiteta. Posvećeni smo da svakog zadovoljnog klijenta osvojimo kvalitetom i pouzdanom uslugom.",
-"vizija" => "Vizija",
-"vizija1" => "Činjenica da uniforme i promo tekstilni materijal dobijaju funkcionalnu dimenziju i da daju pozitivan doprinos efikasnosti rada, jedan su od najvažnijih razloga njihove sve veće popularnosti kako na domaćem, tako i na globalnom tržištu.  S tim u vezi, planiramo da zadržimo vodeću poziciju u našem sektoru u zemlji, kao i da nastavimo da širimo broj zadovoljnih klijenata u inostranstvu.",
-"ciljevi" => "Ciljevi",
-"ciljevi1" => "Imajući u vidu da proizvodnja uniformi i promo tekstilnog materijala zahtjeva podrobno planiranje brojnih detalja poput modela, dezena, tkanina i aksesoara, a sve to u odnosu na sektor, namjenu i sezonske uslove, naš cilj je da svojim klijentima pravovremeno ponudimo udobne i funkcionalne proizvode visokog kvaliteta.",
-"zadovoljni" =>"Zadovoljni",
-"klijenti" =>"klijenti",
-"ovo" =>"Ovo",
-"mjesto" =>"mjesto može ",
-"tvoje" =>"biti tvoje",
-
-
-
-
-
+    "obuko23" => "Obuk`o",
+    "obuko24" => "Proizvodi",
+    "mvc" => "Misija, Vizija, Ciljevi",
+    "misija" => "Misija",
+    "misija1" => "Proizvodnja uniformi i promo tekstilnog materijala postala je jedan od neizostavnih djelova korporativnog i personalnog identiteta. Posvećeni smo da svakog zadovoljnog klijenta osvojimo kvalitetom i pouzdanom uslugom.",
+    "vizija" => "Vizija",
+    "vizija1" => "Činjenica da uniforme i promo tekstilni materijal dobijaju funkcionalnu dimenziju i da daju pozitivan doprinos efikasnosti rada, jedan su od najvažnijih razloga njihove sve veće popularnosti kako na domaćem, tako i na globalnom tržištu.  S tim u vezi, planiramo da zadržimo vodeću poziciju u našem sektoru u zemlji, kao i da nastavimo da širimo broj zadovoljnih klijenata u inostranstvu.",
+    "ciljevi" => "Ciljevi",
+    "ciljevi1" => "Imajući u vidu da proizvodnja uniformi i promo tekstilnog materijala zahtjeva podrobno planiranje brojnih detalja poput modela, dezena, tkanina i aksesoara, a sve to u odnosu na sektor, namjenu i sezonske uslove, naš cilj je da svojim klijentima pravovremeno ponudimo udobne i funkcionalne proizvode visokog kvaliteta.",
+    "zadovoljni" => "Zadovoljni",
+    "klijenti" => "klijenti",
+    "ovo" => "Ovo",
+    "mjesto" => "mjesto može ",
+    "tvoje" => "biti tvoje",
 
 
 ]
